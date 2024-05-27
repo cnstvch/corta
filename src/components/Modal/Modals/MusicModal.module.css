@@ -1,0 +1,85 @@
+.music__modal {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(192, 176, 176);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	animation-name: modalAnimation;
+	animation-duration: .3s;
+}
+
+.poster {
+	background-image: url(https://i.pinimg.com/564x/8e/94/04/8e9404692ed584fc8985d050a1813268.jpg);
+	background-size: cover;
+	width: 400px;
+	height: 400px;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: center;
+	padding: 20px;
+}
+
+.music__data {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.upper__buttons {
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.upper__buttons button {
+	font-size: 30px;
+	background-color: transparent;
+	border: 0;
+	border-radius: 30px;
+	padding: 10px;
+	margin-bottom: 100px;
+	display: flex;
+}
+
+.upper__buttons button:hover {
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.lower__buttons {
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.lower__buttons button {
+	font-size: 30px;
+	background-color: transparent;
+	border: 0;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.lower__buttons button:hover {
+	background: rgba(0, 0, 0, 0.7);
+}
+
+@keyframes modalAnimation {
+	0% {
+		transform: translate(0, 500px);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translate(0, 0);
+		opacity: 1;
+	}
+}

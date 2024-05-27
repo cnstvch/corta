@@ -1,0 +1,58 @@
+.drag__and__drop__page {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.center {
+	width: 35%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgb(17, 17, 17);
+}
+
+.will_map {
+	width: 65%;
+	height: 70px;
+	border-radius: 10px;
+	background-color: transparent;
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	flex-direction: row;
+	padding: 10px;
+	color: white;
+	font-family: var(--montserrat-font);
+	font-weight: 700;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	/* transition: .1s; */	
+}
+
+.will_map:hover {
+	background-color: gray;
+	cursor: pointer;
+}
+
+.left {
+	display: flex;
+	align-items: start;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.delete {
+	transform: rotate(0deg);
+	transition: .5s;
+}
+
+.delete:hover {
+	transform: rotate(180deg);
+}

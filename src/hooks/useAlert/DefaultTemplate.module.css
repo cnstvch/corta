@@ -1,0 +1,7 @@
+.error__style {
+	padding: 15px 15px;
+	background-color: rgba(20, 20, 20, 1);
+	border-radius: 8px;
+	border: 1px solid rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+}

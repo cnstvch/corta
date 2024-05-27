@@ -1,0 +1,35 @@
+.blog__page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main__window {
+	width: 35%;
+	height: 800px;
+	background-color: aqua;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.upper {
+
+}
+
+.center {
+	align-items: start;
+	height: 90%;
+}
+
+.lower {
+	display: flex;
+	justify-content: center;
+}
+
+.first__value {
+}
+
+.second__value {
+
+}

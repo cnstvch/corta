@@ -1,0 +1,17 @@
+{
+	"extends": [
+	  "eslint-config-airbnb",
+	  "eslint-config-airbnb-hooks",
+	  "eslint-plugin-prettier/react",
+	  "eslint-plugin-react/recommended"
+	],
+	"plugins": [
+	  "import",
+	  "react",
+	  "jsx",
+	  "prettier"
+	],
+	"rules": {
+	  "prettier/prettier": "error"
+	}
+  }

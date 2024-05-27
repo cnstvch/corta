@@ -1,0 +1,36 @@
+.main__page {
+	font-family: var(--montserrat-font);
+}
+
+.main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main__section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.welcome {
+	height: 100vh;
+	background-color: red;
+}
+
+.images {
+	height: 100vh;
+	background-color: blue;
+}
+
+.images__auth {
+	width: 20%;
+}
+
+.images__gallery {
+	width: 20%;
+}

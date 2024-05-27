@@ -1,0 +1,11 @@
+.button {
+	width: auto;
+	padding: 10px;
+	border: 0;
+	font-weight: 500;
+	font-family: var(--jersey-font);
+}
+
+.button:hover {
+	cursor: pointer;
+}
